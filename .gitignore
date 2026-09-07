@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw datasets — not included in GitHub
+application_train.csv
+application_test.csv
+bureau.csv
+bureau_balance.csv
+credit_card_balance.csv
+installments_payments.csv
+POS_CASH_balance.csv
+previous_application.csv
+
+# Temporary / local files
+*.tmp
+*.log
+
+# Archives
+*.zip

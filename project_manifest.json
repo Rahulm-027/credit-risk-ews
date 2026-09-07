@@ -1,0 +1,20 @@
+{
+  "project": "Explainable Credit Risk & Early Warning Decision System",
+  "dataset": "Home Credit Default Risk",
+  "model": "XGBoost + Isotonic Calibration",
+  "test_metrics": {
+    "roc_auc": 0.7684,
+    "pr_auc": 0.2476,
+    "brier_score": 0.0672
+  },
+  "optimal_threshold": 0.16758793969849248,
+  "risk_tier_boundaries": {
+    "low_medium": 0.08379396984924624,
+    "medium_high": 0.2513819095477387
+  },
+  "cost_weights": {
+    "false_negative": 5,
+    "false_positive": 1
+  },
+  "generated_at": "2026-09-07T02:44:22"
+}
